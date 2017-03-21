@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+         <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </head>
+    <body style="background-color: tan">
+        <div class="container">
+            <div class="container jumbotron birdpic" style="background-color: tan">
+                <center><img class="bird" src=http://www.clipartkid.com/images/126/cute-tweet-birds-clip-art-free-clipart-graphics-revidevi-wordpress-HRhBCT-clipart.png></center>
+            </div>
+            <h2 class=center> .::CHIRPER::. </h2>
+            <div class=center>
+                <fieldset class= "field">
+                    <legend class= "slogan">You got to know when to chirp!</legend>
+                    <br>
+                        <div class="input-group">
+                            <select id="user-selector">
+                                <option value="">Select User</option>
+                            </select>
+                            <br>
+                                <span class="input-group-btn" id="basic-addon1">
+                                <button class="chirp btn btn-default" type="submit" 
+                                        disabled>Chirp it!</button></span>
+                               <input type="text" class="form-control" id="textbox" 
+                                        placeholder="Chirp to the World" aria-describedby="basic-addon1">
+                                        
+                        </div> 
+                </fieldset>
+             </div>
+                 <div class="container chirps"></div>
+                 <ul class="list-group" id="list-content" style='background-color: lightskyblue'>
+                    
+                     </ul>
+        </div>
+    </body>
+</html>

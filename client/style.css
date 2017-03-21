@@ -1,0 +1,49 @@
+body {
+    background-color: lightgray;
+}
+
+.birdpic {
+    margin-top: 60px;
+    margin-bottom: 0px;   
+}
+
+
+.bird {
+    height: 120px;
+}
+
+.center {
+    text-align: center;
+    color: saddlebrown;
+    font-family: Verdana;
+
+}
+
+.chirp {
+    background-color: white;
+    font-family: Verdana;
+    
+}
+
+.field {
+    border-color: lightskyblue;
+    border-width: 10px;
+    
+}
+
+.slogan {
+    font-family: Verdana;
+    text-align: center;
+    color: saddlebrown;
+}
+
+
+.list-group-item {
+    margin: 20px;
+    background-color: lightskyblue;
+}
+
+.list-group {
+    padding: 20px;
+}
+
